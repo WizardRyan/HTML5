@@ -1,0 +1,36 @@
+@keyframes navgrow{
+    from:{
+        font-size: 2em;
+    }
+    to:{
+        font-size: 4em;
+    }
+}
+
+
+body{
+    background-color: #;
+}
+
+.navbar ul > li {
+    display: inline;
+    list-style-type: none;
+    color: #f5f5f5;
+    font-family: "Segoe UI";
+    font-size: 2em;
+    margin: 10px;
+    text-shadow: 1px 1px 4px black;
+
+}
+
+.navbar ul > li:hover {
+    -webkit-animation: navgrow 1s;
+    -moz-animation: navgrow 1s;
+    -ms-animation: navgrow 1s;
+    -o-animation: navgrow 1s;
+    animation: navgrow 1s;
+}
+
+.navbar {
+    background-color: #9A91FF;
+}
