@@ -2,6 +2,7 @@
 <html>
 <head>
 <title></title>    
+    <meta name="viewport" content="width-device-width, initial-scale=1">
     <link href="Styles/main.css" rel="stylesheet" type="text/css">
     <script defer src="scripts/homeScript.js"></script>
 </head>
@@ -14,6 +15,22 @@
         </ul>
     </nav>
     
-    
+    <div>
+        
+        <figure class="tri-fig">
+            <img src="images/right_triangle_labeled.png" >
+        </figure>
+        
+        <form id="form" method="post">
+            <label class="tri-label" for="A">A</label>
+            <input type="number" name="A" class="num" id"A">
+            <label class="tri-label" for="B">B</label>
+            <input type="number" name="B" class="num" id"B">
+            <label class="tri-label" for="C">C</label>
+            <input type="number" name="C" class="num" id"C">
+            <input type="submit" name="submit" id="tri-submit">
+        </form>
+    </div>
+
 </body>
 </html>
