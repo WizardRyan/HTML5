@@ -29,23 +29,25 @@ body{
 
 .navbar {
     background-color: #9A91FF;
+    border-radius: 40px;
 }
 
 
 #form{
     float: left;
     clear: both;
-    display: inline;
+    display: block;
     padding-left: 50px;
 }
 
 .tri-fig{
     float: left;
-    max-height: 30%;
-    max-width: 30%;
+    height: auto;
+    width: auto;
+    max-width: 100%;
     display:block;
     padding: 40px;
-    padding-bottom: 150px;
+    padding-bottom: 80px;
     margin: 10px;
 }
 
@@ -58,7 +60,7 @@ body{
 .num{
     display: inline;
     width: 174px;
-    margin: 10px;
+    margin: 2px;
 }
 
 .tri-submit{
