@@ -1,4 +1,4 @@
-@keyframes navgrow{
+@keyframes navgrow {
     from:{
         font-size: 2em;
     }
@@ -9,7 +9,7 @@
 
 
 body{
-    background-color: #;
+    
 }
 
 .navbar ul > li {
@@ -21,10 +21,20 @@ body{
     margin: 20px;
     text-shadow: 1px 1px 4px black;
 
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+
 }
 
 .navbar ul > li:hover {
-
+    -webkit-transition: zoom .5;
+    -moz-transition: zoom .5;
+    -ms-transition: zoom .5;
+    -o-transition: zoom .5;
+    transition: zoom .5;
 }
 
 .navbar {
